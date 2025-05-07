@@ -4,7 +4,6 @@ import useBrands from "@/hooks/use-brands";
 
 export default function Home() {
   const { data: brands } = useBrands();
-  console.log(brands);
 
   return (
     <div>
